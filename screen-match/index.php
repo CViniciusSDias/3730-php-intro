@@ -38,7 +38,7 @@ echo "O gênero do filme é: $genero\n";
 $filme = criaFilme(
     nota: 7.8,
     genero: "super-herói",
-    ano: 2021,
+    anoLancamento: 2021,
     nome: "Thor: Ragnarok",
 );
 
