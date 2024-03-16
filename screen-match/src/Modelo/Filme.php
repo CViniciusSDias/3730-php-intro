@@ -1,10 +1,10 @@
 <?php
 
 class Filme {
-    public string $nome;
-    public int $anoLancamento;
-    public string $genero;
-    public array $notas = [];
+    private string $nome;
+    private int $anoLancamento;
+    private string $genero;
+    private array $notas = [];
 
     public function avalia(float $nota): void
     {

@@ -16,4 +16,6 @@ $filme->avalia(5);
 
 var_dump($filme);
 
+$filme->notas = [0];
+
 echo $filme->media();
