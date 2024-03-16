@@ -9,6 +9,7 @@ $filme = new Filme(
     'Thor - Ragnarok',
     2021,
     Genero::SuperHeroi,
+    180,
 );
 
 $filme->avalia(10);

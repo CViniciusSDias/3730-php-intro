@@ -1,6 +1,6 @@
 <?php
 
-class Filme
+class Serie
 {
     private array $notas;
 
@@ -8,7 +8,9 @@ class Filme
         public readonly string $nome,
         public readonly int $anoLancamento,
         public readonly Genero $genero,
-        public readonly int $duracaoEmMinutos,
+        public int $temporadas,
+        public int $episodiosPorTemporadas,
+        public int $minutosPorEpidio
     ) {
         $this->notas = [];
     }
