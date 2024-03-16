@@ -5,9 +5,10 @@ require __DIR__ . "/src/Modelo/Filme.php";
 echo "Bem-vindo(a) ao ScreenMatch\n";
 
 $filme = new Filme();
-$filme->nome = 'Thor - Ragnarok';
+$filme->defineAnoLancamento(2021);
+/*$filme->nome = 'Thor - Ragnarok';
 $filme->anoLancamento = 2021;
-$filme->genero = 'super-heroi';
+$filme->genero = 'super-heroi';*/
 
 $filme->avalia(10);
 $filme->avalia(10);
@@ -16,6 +17,6 @@ $filme->avalia(5);
 
 var_dump($filme);
 
-$filme->notas = [0];
+echo $filme->media() . "\n";
 
-echo $filme->media();
+echo $filme->anoLancamento();
