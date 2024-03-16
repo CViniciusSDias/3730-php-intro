@@ -1,6 +1,7 @@
 <?php
 
 require __DIR__ . "/src/Modelo/Genero.php";
+require __DIR__ . "/src/Modelo/Titulo.php";
 require __DIR__ . "/src/Modelo/Filme.php";
 
 echo "Bem-vindo(a) ao ScreenMatch\n";
