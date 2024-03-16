@@ -8,7 +8,7 @@ class Serie extends Titulo
         Genero $genero,
         public readonly int $temporadas,
         public readonly int $episodiosPorTemporada,
-        public readonly int $minutosPorEpidio
+        public readonly int $minutosPorEpisodio
     ) {
         parent::__construct($nome, $anoLancamento, $genero);
     }
